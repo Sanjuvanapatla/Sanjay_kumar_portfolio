@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.APC-bg{
+  background-color: rgb(247, 248, 249);
+  height: 100vh;
+}

@@ -1,0 +1,43 @@
+.floating-screen {
+  width: 320px;
+  margin: 20px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.floating-screen:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.floating-screen canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.floating-screen h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.floating-screen p {
+  margin: 10px 0 5px;
+  font-size: 1 rem;
+  color: #7b7a7a;
+}
+
+.floating-screen a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.floating-screen a:hover {
+  text-decoration: underline;
+}
